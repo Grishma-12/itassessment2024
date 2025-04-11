@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PearlyGlow - Others</title>
+    <link rel="stylesheet" href="other.css">
+</head>
+<body>
+    <div class="page-container">
+        <header>
+            <div class="logo">
+                <img src="grish.png" alt="PearlyGlow Logo">
+                <span>PearlyGlow</span>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="other.html" class="active">Other</a>
+            </nav>
+            <div class="user-actions">
+                <input type="text" placeholder="Search Products">
+                <a href="login.html">Login/SignUp</a>
+            </div>
+        </header>
+
+        <main class="content-wrapper">
+            <aside class="sidebar">
+                <div class="filter-box">
+                    <h3>Enter Keyword</h3>
+                    <input type="text" placeholder="Enter keyword">
+                </div>
+
+                <div class="filter-box">
+                    <h3>Price Range</h3>
+                    <div class="price-range">
+                        <label>Rs. 0 - Rs. 10,00</label>
+                        <div class="slider-container">
+                            <input type="range" min="0" max="10000" value="0">
+                            <input type="range" min="0" max="10000" value="10000">
+                        </div>
+                        <div class="price-inputs">
+                            <input type="number" value="0">
+                            <span>-</span>
+                            <input type="number" value="10000">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-box">
+                    <h3>Filter By Categories</h3>
+                    <select>
+                        <option value="">All Categories</option>
+                        <option value="lip-care">Lip Care</option>
+                        <option value="skin-care">Skin Care</option>
+                        </select>
+                </div>
+            </aside>
+
+            <section class="product-list">
+                <h2>Others</h2>
+                <p>Total Products: 2</p>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <img src="Rhode.jpg" alt="Rhode Peptide Lip Tint">
+                        <h3>Rhode Peptide <br> Lip Tint</h3>
+                        <p>NPR. 2,000</p>
+                        <button class="buy-now-btn">BUY NOW</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="ESQA.jpg" alt="EMCA Brick Drop Serum Lip Tint">
+                        <h3>EMCA Brick Drop Serum <br> Lip Tint</h3>
+                        <p>NPR. 1,500</p>
+                        <button class="buy-now-btn">BUY NOW</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 PearlyGlow. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><img src="Facebook.jpg" alt="Facebook"></a>
+                <a href="#"><img src="instagram.jpg" alt="Instagram"></a>
+                <a href="#"><img src="twitter.jpg" alt="Twitter"></a>
+            </div>
+        </footer>
+    </div>
+    <script src="other.js"></script>
+</body>
+</html>
