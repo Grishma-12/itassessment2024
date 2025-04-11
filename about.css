@@ -1,0 +1,132 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #be3838;
+}
+
+.about-page {
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 20px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #e44d13; /* Example brand color */
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #8e44ad;
+}
+nav a.active {
+    font-weight: bold;
+    color: #e44d26;
+}
+
+
+.user-actions input[type="text"] {
+    padding: 8px 15px;
+    border: 1px solid #da7e2d;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 0.9em;
+}
+
+.user-actions a {
+    color: #fff;
+    background-color: #e44d26;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.user-actions a:hover {
+    background-color: #d14320
+}
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    aspect-ratio: 1/1; /* Make images square */
+    object-fit: cover; /* Cover the square area, may crop */
+}
+
+.about-content h1 {
+    color: #8e44ad;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-content h2 {
+    color: #666;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+    color: #0f0f0f;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    color: #777;
+    font-size: 0.9em;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links img {
+    height: 24px;
+    width: 24px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.social-links img:hover {
+    opacity: 1;
+}
